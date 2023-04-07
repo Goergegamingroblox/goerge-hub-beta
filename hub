@@ -10,6 +10,8 @@ Mainsection:NewButton("cursor", "give your mouse cursor very epic right?", funct
 
 loadstring(game:HttpGet(('https://pastefy.ga/V75mqzaz/raw'),true))()
 
+Mainsection:NewButton("coming soon", "coming soon", fnction()
+
 
 
 
