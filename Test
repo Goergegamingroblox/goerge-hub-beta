@@ -1,0 +1,53 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("goerge hub (beta)", "GrapeTheme")
+
+local Tab = Window:NewTab("goerge hubs")
+
+local Mainsection = Tab:NewSection("hubs")
+ 
+
+
+
+
+
+Mainsection:NewButton("cursor", "give your mouse cursor very epic right?", function()
+
+loadstring(game:HttpGet(('https://pastefy.ga/V75mqzaz/raw'),true))()
+
+
+
+
+
+end)
+local gui = Instance.new("Frame")
+
+gui.Size = UDim2.new(0, 200, 0, 200)
+
+gui.Position = UDim2.new(0.5, -100, 0.5, -100)
+
+gui.BackgroundColor3 = Color3.new(1, 1, 1)
+
+gui.Parent = game.Players.LocalPlayer.PlayerGuilocal label = Instance.new("TextLabel")
+
+label.Size = UDim2.new(1, 0, 0, 50)
+
+label.Position = UDim2.new(0, 0, 0, 0)
+
+label.Text = "Hello, world!"
+
+label.Parent = guilocal button = Instance.new("TextButton")
+
+button.Size = UDim2.new(0, 100, 0, 50)
+
+button.Position = UDim2.new(0, 50, 0, 100)
+
+button.Text = "Click me!"
+
+button.Parent = gui
+
+button.MouseButton1Click:Connect(function()
+
+    label.Text = "Button clicked!"
+
+end)
