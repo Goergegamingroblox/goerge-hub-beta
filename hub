@@ -7,15 +7,8 @@ local Tab = Window:NewTab("hubs")
 local Mainsection = Tab:NewSection("hubs")
 -- Define the part to move
 
-local part = game.Workspace.Part
 
--- Define the destination position
 
-local destination = Vector3.new(10, 0, 0)
-
--- Move the part to the destination
-
-part:MoveTo(destination)
 
 
 Mainsection:NewButton("cursor", "give your mouse cursor very epic right?", function()
