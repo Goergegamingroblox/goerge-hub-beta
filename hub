@@ -2,10 +2,10 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 
 local Window = Library.CreateLib("goerge hub (beta)", "GrapeTheme")
 
-local Tab = Window:NewTab("hubs")
+local Tab = Window:NewTab("goerge hubs")
 
 local Mainsection = Tab:NewSection("hubs")
--- Define the part to move
+
 
 
 
