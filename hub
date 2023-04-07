@@ -6,7 +6,7 @@ local Tab = Window:NewTab("hubs")
 
 local Mainsection = Tab:NewSection("hubs")
 
-Mainsection:NewButton("cursor", "give your mouse cursor very epic right? I didn't make the cursor credit o v75mqzaz ", function()
+Mainsection:NewButton("cursor", "give your mouse cursor very epic right?", function()
 
 loadstring(game:HttpGet(('https://pastefy.ga/V75mqzaz/raw'),true))()
 
