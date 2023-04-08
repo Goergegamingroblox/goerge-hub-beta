@@ -31,3 +31,15 @@ end)
 
 
 
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("clapds hub", "GrapeTheme")
+
+local Tab = Window:NewTab("hubs")
+
+local Mainsection = Tab:NewSection("hubs")
+
+Mainsection:NewButton("cusor", "give you cursor mouse", function()
+loadstring(game:HttpGet(('https://pastefy.ga/V75mqzaz/raw'),true))()
+
+end)
