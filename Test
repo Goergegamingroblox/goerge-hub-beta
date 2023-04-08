@@ -11,12 +11,12 @@ local Mainsection = Tab:NewSection("hubs")
 
 
 
-Mainsection:NewButton("cursor", "give your mouse cursor very epic right?", function()
+Mainsection:NewButton("cursor") , "give your mouse cursor very epic right?", function()
 
  
 loadstring(game:HttpGet(('https://pastefy.ga/V75mqzaz/raw'),true))()
 
-Mainsection:NewButton("door (poop)", "roblox door , fuction()
+Mainsection:NewButton("door poop") , "roblox door , fuction()
 
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/poopdoors_edited.lua"),true))() 
 
