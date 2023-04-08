@@ -17,7 +17,7 @@ loadstring(game:HttpGet(('https://pastefy.ga/V75mqzaz/raw'),true))()
 
 
 
-mainsection:NewButton("poopdoor") , " poop door 
+mainsection:NewButton("poopdoor") , " poop door"
 
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/poopdoors_edited.lua"),true))() 
 
