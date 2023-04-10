@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-local Window = Library.CreateLib("goerge hub (beta)", "GrapeTheme")
+local Window = Library.CreateLib("goerge hub (beta)", "DarkTheme")
 
 local Tab = Window:NewTab("goerge hubs")
 
