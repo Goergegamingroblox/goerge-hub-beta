@@ -1,20 +1,166 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
- 
-local Window = OrionLib:MakeWindow({Name = "Title of the library", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))[]
+
+local Window = OrionLib:MakeWindow({Name = "home", HidePremium = false, SaveConfig = true, ConfigFolder = "saved folder"})
+
+local Tab = Window:MakeTab({
+
+	Name = "Tab 1",	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+local Section = Tab:AddSection({
+
+	Name = "uh"
+
+  OrionLib:MakeNotification({
+
+	Name = "hey! thank for execute it",
+
+	Content = "thank for using it more update soon and let beta so alot thing not added",
+
+	Image = "rbxassetid://4483345998",
+
+	Time = 3
+
+                        })
+
+                Tab:AddButton({
+
+	Name = "cursor",
+
+	Callback = function()
+
+      		print("give you cursor")
+
+  	end  
+
+  })
+
+CoolToggle:Set(true)
+
+                Tab:AddColorpicker({
+
+	Name = "Colorpicker",
+
+	Default = Color3.fromRGB(255, 0, 0),
+
+	Callback = function(Value)
+
+		print(Value)
+
+	end	  
+
+                        })
+
+                ColorPicker:Set(Color3.fromRGB(255,255,255))
+
+                Tab:AddSlider({
+
+	Name = "Slider",
+
+	Min = 0,
+
+	Max = 100,
+
+	Default = 10,
+
+	Color = Color3.fromRGB(255,255,255),
+
+	Increment = 1,
+
+	ValueName = "idk",
+
+	Callback = function(Value)
+
+		print(Value)
+
+	end    
+
+})
+
+Slider:Set(2)
+
+               (Tab:AddLabel("Label")
+
+               (CoolLabel:Set("idk")
+
+                (Tab:AddParagraph("Paragraph","Paragraph Content")
+
+                Tab:AddTextbox({
+
+	Name = "Textbox",
+
+	Default = "",
+
+	TextDisappear = true,
+
+	Callback = function(Value)
+
+		print(Value)
+
+	end	  
+
+})
+
+               ; Tab:AddBind({
+
+	Name = "Bind",
+
+	Default = Enum.KeyCode.E,
+
+	Hold = false,
+
+	Callback = function()
+
+		print("idk")
+
+                                end
+
+                        })
+
+       tab:AddDropdown({
+
+	Name = "Dropdown",
+
+	Default = "1",
+
+	Options = {"1", "2"},
+
+	Callback = function(Value)
+
+		print(Value)
+
+	end    
+
+})
+
+Dropdown:Refresh(List<table>,true),
+
+                Dropdown:Set("dropdown option"),
+
+                Tab1:AddToggle({
+
+    Name = "Toggle",
+
+    Default = true,
+
+    Save = true,
+
+    Flag = "toggle"
+
+})
+
+print(OrionLib.Flags["toggle"].Value),
+
+ OrionLib:Destroy()}}
+
+        
 
 
 
 
-Mainsection:NewButton("cursor") , "give your mouse cursor very epic right?", function()
-
-loadstring(game:HttpGet(('https://pastefy.ga/V75mqzaz/raw'),true))()
-
-
-
-
-
-
-end) 
 
 
 
@@ -23,3 +169,15 @@ end)
 
 
 
+
+
+
+
+	
+	
+
+               
+
+	
+
+	
